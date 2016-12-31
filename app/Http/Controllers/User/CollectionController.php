@@ -131,4 +131,15 @@ class CollectionController extends Controller
         
         return Lang::get('remove-error');
     }
+
+    public function myCollections()
+    {
+        if (Auth::user()) {
+            $data['collections'] = $this->collectionRepository->findByField('shop_id', Auth::user()->shop->id);
+
+            return view('user.collection.index', $data);
+        }
+      
+        return redirect()->route('/');
+    }
 }

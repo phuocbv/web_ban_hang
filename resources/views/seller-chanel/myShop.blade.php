@@ -12,10 +12,10 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-ls-12 row-item row margin-top-50">
             <div class="col-xs-12 col-sm-12 col-md-3 col-ls-3">
-                <a href="{!! route('user.collection.index') !!}">
+                <a href="{!! route('user.user.myCollections') !!}">
                     <div class="block-categoty-shop one"></div>
                 </a>
-                <a href="{!! route('user.collection.index') !!}">
+                <a href="{!! route('user.user.myCollections') !!}">
                     <div class="name-category-shop"><h4>@lang('shop.collection')</h4></div>
                 </a>
             </div>
