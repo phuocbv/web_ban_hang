@@ -39,6 +39,12 @@ class CategoryController extends Controller
         return $this->categoryRepository->create($data);
     }
 
+    public function edit($id)
+    {
+        $category = $this->categoryRepository->find($id);
+        return response()->json($category);
+    }
+
     public function subCategory()
     {
         $subs = $this->categoryRepository->getSubCategory($id);

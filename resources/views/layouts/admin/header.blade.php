@@ -13,6 +13,11 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                @if (Auth::guest())
+                    <li><a class="shop-name" href="{{ url('/login') }}">@lang('login.login')</a></li>
+                    <li><a class="shop-name" href="{{ url('/register') }}">@lang('register.register')</a></li>
+                @else
+                <li><a href="{{ route('user.cart.index') }}">@lang('user.cart.title')</a></li>
                 <li class="dropdown">
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -20,7 +25,20 @@
                         </a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="{{ route('users.edit', Auth::user()) }}"><i class="fa fa-btn fa-edit">
-                             @lang('header.profile')</i></a></li>
+                            @lang('header.profile')</i></a></li>
+                            <li><a href="{{ route('user.bill.index')}}"><i class="fa fa-btn fa-info-circle">
+                            @lang('header.bill')</i></a></li>
+                            @if (Auth::user()->shop)
+                                <li><a href="{{ route('user.user.myShop') }}">
+                                    <i class="fa fa-btn fa-shopping-bag">
+                                    @lang('header.manage_shop')</i></a>
+                                </li>
+                            @else
+                                <li><a href="{{ route('user.shop.create') }}">
+                                <i class="fa fa-btn fa-shopping-bag">
+                                    @lang('header.create_shop')</i></a>
+                                </li>
+                            @endif
                             <li><a id="logout" href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> @lang('header.logout')</a> 
                                 <form id="logout-form" action="{{ url('/logout') }}" method="POST">
                                     {{ csrf_field() }}
@@ -29,7 +47,8 @@
                         </ul>
                     </li>
                 </li>
+                @endif
             </ul>
-        </div>   
+        </div>
     </div>
 </nav>

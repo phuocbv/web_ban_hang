@@ -1,6 +1,10 @@
-@extends("layouts.admin.app")
+@extends('layouts.admin.app')
 
-@section("content")
+@section('title')
+    @lang('admin.categories')
+@endsection
+
+@section('content')
 <div id="page-wrapper">
     <div class="container-fluid">
         <div class="row">
@@ -33,10 +37,10 @@
                                 <td><a href="#">{!! $category->name !!}</a></td>
                                 <td>{!! $category->sort !!}</td>
                                 <td class="center" width="10%">
-                                    <i class="fa fa-pencil fa-fw"></i>
+                                    <i class="fa fa-pencil fa-fw edit" data-id="{{ $category->id }}"></i>
                                 </td>
-                                <td class="center" width="10%">
-                                    <i class="fa fa-trash"></i>
+                                <td class="center" width="10%">   
+                                    <i class="fa fa-trash" data-id="{{ $category->id }}"></i>
                                 </td>
                                 @if ($category->parent)
                                 <td width="10%">
@@ -56,19 +60,61 @@
     </div>
 </div>
 
-<div class="modal fade bs-example-modal-sm"
-    tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+<div class="modal fade" id="modalEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">@lang('admin.edit-category')</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="category-name">@lang('admin.category-name')</label>
+                        <input type="text" class="form-control" id="category-name" placeholder="@lang('admin.category-name')">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="modalDelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 @stop
 
 @section('script')
+    <script type="text/javascript" src="{{ asset('bower_components/blockUI/jquery.blockUI.js') }}"></script>
     <script src="{{ asset('/js/dttable.js') }}"></script>
+    <script src="{{ asset('admin/js/category.js') }}"></script>
     <script>
         var dttable = new dttable();
-        dttable.init('#dataTables-example');
+        var category = new category();
+        $(function() {
+            dttable.init('#dataTables-example');
+            category.init({
+                imageAwait: '{{ asset('/images/await.gif') }}'
+            });
+        });
     </script>
 @endsection
