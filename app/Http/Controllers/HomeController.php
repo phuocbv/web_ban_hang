@@ -43,4 +43,11 @@ class HomeController extends Controller
 
         return view('searchProduct', $data);
     }
+
+    public function getProductTitle($id)
+    {
+        $category = $this->categoryRepository->find($id);
+        $products = $category->productsThrough;
+        return response()->json($products);
+    }
 }

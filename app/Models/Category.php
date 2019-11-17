@@ -34,7 +34,7 @@ class Category extends BaseModel
 
     public function products()
     {
-        return $this->hasMany(Product::class)->orderBy('created_at', 'desc')->with('images');
+        return $this->hasMany(Product::class)->orderBy('created_at', 'desc')->with('images')->limit(8);
     }
 
     public function shops()

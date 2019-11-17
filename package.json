@@ -1,4 +1,6 @@
 {
+  "name": "my-blog-reactapp",
+  "main": "webpack.config.js",
   "private": true,
   "scripts": {
     "prod": "gulp --production",
@@ -13,6 +15,19 @@
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.16.2",
     "vue": "^2.0.1",
-    "vue-resource": "^1.0.3"
+    "vue-resource": "^1.0.3",
+    "laravel-elixir-react": "~0.1.2",
+    "react-dom": "~15.4.2",
+    "react": "~15.4.2",
+    "webpack": "~2.3.1",
+    "webpack-dev-server": "~2.4.2",
+    "path": "~0.12.7"
+  },
+  "dependencies": {
+    "react-dom": "~15.4.2",
+    "react": "~15.4.2"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
   }
 }

@@ -1,0 +1,910 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/da/Documents/Project/fbs',
+5 verbose install   [ 'react-dom',
+5 verbose install     'react',
+5 verbose install     'bootstrap-sass',
+5 verbose install     'gulp',
+5 verbose install     'jquery',
+5 verbose install     'laravel-elixir',
+5 verbose install     'laravel-elixir-vue-2',
+5 verbose install     'laravel-elixir-webpack-official',
+5 verbose install     'lodash',
+5 verbose install     'vue',
+5 verbose install     'vue-resource',
+5 verbose install     'laravel-elixir-react',
+5 verbose install     'webpack',
+5 verbose install     'webpack-dev-server',
+5 verbose install     'path' ] ]
+6 info preinstall my-blog-reactapp@
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping bootstrap-sass@^3.3.7 /home/da/Documents/Project/fbs
+9 verbose already installed skipping react-dom@~15.4.2 /home/da/Documents/Project/fbs
+10 verbose already installed skipping react@~15.4.2 /home/da/Documents/Project/fbs
+11 verbose already installed skipping gulp@^3.9.1 /home/da/Documents/Project/fbs
+12 verbose already installed skipping laravel-elixir@^6.0.0-14 /home/da/Documents/Project/fbs
+13 verbose already installed skipping jquery@^3.1.0 /home/da/Documents/Project/fbs
+14 verbose already installed skipping laravel-elixir-vue-2@^0.2.0 /home/da/Documents/Project/fbs
+15 verbose cache add [ 'laravel-elixir-webpack-official@^1.0.2', null ]
+16 verbose cache add name=undefined spec="laravel-elixir-webpack-official@^1.0.2" args=["laravel-elixir-webpack-official@^1.0.2",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'laravel-elixir-webpack-official@^1.0.2',
+17 verbose parsed url   path: 'laravel-elixir-webpack-official@^1.0.2',
+17 verbose parsed url   href: 'laravel-elixir-webpack-official@^1.0.2' }
+18 verbose cache add name="laravel-elixir-webpack-official" spec="^1.0.2" args=["laravel-elixir-webpack-official","^1.0.2"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '^1.0.2',
+19 verbose parsed url   path: '^1.0.2',
+19 verbose parsed url   href: '^1.0.2' }
+20 verbose addNamed [ 'laravel-elixir-webpack-official', '^1.0.2' ]
+21 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+22 verbose already installed skipping lodash@^4.16.2 /home/da/Documents/Project/fbs
+23 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+24 verbose lock laravel-elixir-webpack-official@^1.0.2 /home/da/.npm/60cfa36d-el-elixir-webpack-official-1-0-2.lock
+25 verbose already installed skipping vue@^2.0.1 /home/da/Documents/Project/fbs
+26 silly addNameRange { name: 'laravel-elixir-webpack-official',
+26 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+26 silly addNameRange   hasData: false }
+27 verbose already installed skipping vue-resource@^1.0.3 /home/da/Documents/Project/fbs
+28 verbose url raw laravel-elixir-webpack-official
+29 verbose url resolving [ 'https://registry.npmjs.org/',
+29 verbose url resolving   './laravel-elixir-webpack-official' ]
+30 verbose url resolved https://registry.npmjs.org/laravel-elixir-webpack-official
+31 info trying registry request attempt 1 at 11:20:42
+32 verbose etag "58404d31-449f"
+33 http GET https://registry.npmjs.org/laravel-elixir-webpack-official
+34 verbose already installed skipping webpack@~2.3.1 /home/da/Documents/Project/fbs
+35 verbose already installed skipping laravel-elixir-react@~0.1.2 /home/da/Documents/Project/fbs
+36 verbose already installed skipping webpack-dev-server@~2.4.2 /home/da/Documents/Project/fbs
+37 verbose already installed skipping path@~0.12.7 /home/da/Documents/Project/fbs
+38 http 304 https://registry.npmjs.org/laravel-elixir-webpack-official
+39 silly registry.get cb [ 304,
+39 silly registry.get   { date: 'Fri, 24 Mar 2017 04:20:43 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     'cache-control': 'max-age=300',
+39 silly registry.get     etag: '"58404d31-449f"',
+39 silly registry.get     age: '145',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-hkg6822-HKG',
+39 silly registry.get     'x-cache': 'HIT',
+39 silly registry.get     'x-cache-hits': '1',
+39 silly registry.get     'x-timer': 'S1490329243.579625,VS0,VE0',
+39 silly registry.get     vary: 'Accept-Encoding' } ]
+40 verbose etag laravel-elixir-webpack-official from cache
+41 silly addNameRange number 2 { name: 'laravel-elixir-webpack-official',
+41 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+41 silly addNameRange   hasData: true }
+42 silly addNameRange versions [ 'laravel-elixir-webpack-official',
+42 silly addNameRange   [ '1.0.0',
+42 silly addNameRange     '1.0.1',
+42 silly addNameRange     '1.0.2',
+42 silly addNameRange     '1.0.3',
+42 silly addNameRange     '1.0.4',
+42 silly addNameRange     '1.0.5',
+42 silly addNameRange     '1.0.6',
+42 silly addNameRange     '1.0.8',
+42 silly addNameRange     '1.0.9',
+42 silly addNameRange     '1.0.10' ] ]
+43 verbose addNamed [ 'laravel-elixir-webpack-official', '1.0.10' ]
+44 verbose addNamed [ '1.0.10', '1.0.10' ]
+45 silly lockFile 646055bc-l-elixir-webpack-official-1-0-10 laravel-elixir-webpack-official@1.0.10
+46 verbose lock laravel-elixir-webpack-official@1.0.10 /home/da/.npm/646055bc-l-elixir-webpack-official-1-0-10.lock
+47 silly lockFile 646055bc-l-elixir-webpack-official-1-0-10 laravel-elixir-webpack-official@1.0.10
+48 silly lockFile 646055bc-l-elixir-webpack-official-1-0-10 laravel-elixir-webpack-official@1.0.10
+49 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+50 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+51 silly resolved [ { name: 'laravel-elixir-webpack-official',
+51 silly resolved     version: '1.0.10',
+51 silly resolved     description: 'Laravel Elixir Webpack integration',
+51 silly resolved     main: 'dist/index.js',
+51 silly resolved     repository:
+51 silly resolved      { type: 'git',
+51 silly resolved        url: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official.git' },
+51 silly resolved     homepage: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official',
+51 silly resolved     scripts:
+51 silly resolved      { compile: 'babel --presets=es2015 -d dist src',
+51 silly resolved        prepublish: 'npm run compile' },
+51 silly resolved     keywords: [ 'laravel', 'elixir', 'webpack', 'gulp' ],
+51 silly resolved     author: { name: 'Jeffrey Way' },
+51 silly resolved     license: 'MIT',
+51 silly resolved     dependencies:
+51 silly resolved      { buble: '^0.12.3',
+51 silly resolved        'buble-loader': '^0.2.2',
+51 silly resolved        'gulp-filter': '^4.0.0',
+51 silly resolved        lodash: '^4.15.0',
+51 silly resolved        webpack: '2.1.0-beta.15 - 2.1.0-beta.22',
+51 silly resolved        'webpack-stream': 'github:jeroennoten/webpack-stream#patch-1' },
+51 silly resolved     devDependencies: { 'babel-cli': '^6.10.1', 'babel-preset-es2015': '^6.9.0' },
+51 silly resolved     readme: '# Laravel Elixir Webpack Integration\n\nThis extension brings Webpack support to Laravel Elixir, version 6 and up.\n\n## Step 1: Install\n\n```js\nnpm install laravel-elixir-webpack-official --save-dev\n```\n\n## Step 2: Usage\n\nSimilar to Browserify, the `webpack` method may be used to compile and bundle [ECMAScript 2015](https://babeljs.io/docs/learn-es2015/) into plain JavaScript.\nThis function accepts a file, relative to the `resources/assets/js` directory, and generates a single bundled file in the `public/js` directory:\n\n```javascript\nelixir(function(mix) {\n    mix.webpack(\'app.js\');\n});\n```\n\nTo choose a different output or base directory, simply specify your desired paths as the second and third arguments, respectively.\n\n```javascript\nelixir(function(mix) {\n    mix.webpack(\'app.js\', \'public/dist\', \'app/assets/js\');\n});\n```\n\nThis will compile `app/assets/js/app.js` to `public/dist/app.js`.\n\nIf you\'d like to leverage more of Webpack\'s functionality, Elixir will read any `webpack.config.js` file in your project root, and [factor its configuration](https://webpack.github.io/docs/configuration.html) into the build process. Alternatively, you may pass your Webpack-specific configuration as the fourth argument to `mix.webpack()`.\n\n## Step 3: Plugins\n\nIf you\'ve created a plugin, and need to hook your own Webpack config into Elixir\'s defaults, add the following to your script:\n\n```js\nElixir.webpack.mergeConfig({\n    babel: {\n        presets: [\'es2015\'],\n        plugins: [\'transform-runtime\'],\n    },\n    module: {\n        loaders: [{\n            test: /\\.vue$/,\n            loader: \'vue\'\n        }]\n    }\n});\n```\n\n`Elixir.webpack.mergeConfig(newConfig)` will recursively merge your provided configuration with ours. It also properly merges any nested  arrays, so as not to override important default configuration. For example, in the code snippet above, the addition of the Vue loader will not overwrite the default loaders that we provide.',
+51 silly resolved     readmeFilename: 'readme.md',
+51 silly resolved     bugs: { url: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official/issues' },
+51 silly resolved     _id: 'laravel-elixir-webpack-official@1.0.10',
+51 silly resolved     _from: 'laravel-elixir-webpack-official@^1.0.2' } ]
+52 info install laravel-elixir-webpack-official@1.0.10 into /home/da/Documents/Project/fbs
+53 info installOne laravel-elixir-webpack-official@1.0.10
+54 info /home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official unbuild
+55 verbose tar unpack /home/da/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+56 silly lockFile 121c24eb--laravel-elixir-webpack-official tar:///home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official
+57 verbose lock tar:///home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official /home/da/.npm/121c24eb--laravel-elixir-webpack-official.lock
+58 silly lockFile 1ac3f50d-pack-official-1-0-10-package-tgz tar:///home/da/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+59 verbose lock tar:///home/da/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz /home/da/.npm/1ac3f50d-pack-official-1-0-10-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry dist/WebpackTask.js
+64 silly gunzTarPerm extractEntry dist/index.js
+65 silly gunzTarPerm extractEntry project.sublime-workspace
+66 silly gunzTarPerm extractEntry readme.md
+67 silly lockFile 121c24eb--laravel-elixir-webpack-official tar:///home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official
+68 silly lockFile 121c24eb--laravel-elixir-webpack-official tar:///home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official
+69 silly lockFile 1ac3f50d-pack-official-1-0-10-package-tgz tar:///home/da/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+70 silly lockFile 1ac3f50d-pack-official-1-0-10-package-tgz tar:///home/da/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+71 info preinstall laravel-elixir-webpack-official@1.0.10
+72 verbose readDependencies using package.json deps
+73 verbose readDependencies using package.json deps
+74 verbose cache add [ 'buble@^0.12.3', null ]
+75 verbose cache add name=undefined spec="buble@^0.12.3" args=["buble@^0.12.3",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'buble@^0.12.3',
+76 verbose parsed url   path: 'buble@^0.12.3',
+76 verbose parsed url   href: 'buble@^0.12.3' }
+77 verbose cache add name="buble" spec="^0.12.3" args=["buble","^0.12.3"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '^0.12.3',
+78 verbose parsed url   path: '^0.12.3',
+78 verbose parsed url   href: '^0.12.3' }
+79 verbose addNamed [ 'buble', '^0.12.3' ]
+80 verbose addNamed [ null, '>=0.12.3-0 <0.13.0-0' ]
+81 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+82 verbose lock buble@^0.12.3 /home/da/.npm/c87ec1a5-buble-0-12-3.lock
+83 verbose cache add [ 'buble-loader@^0.2.2', null ]
+84 verbose cache add name=undefined spec="buble-loader@^0.2.2" args=["buble-loader@^0.2.2",null]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: 'buble-loader@^0.2.2',
+85 verbose parsed url   path: 'buble-loader@^0.2.2',
+85 verbose parsed url   href: 'buble-loader@^0.2.2' }
+86 verbose cache add name="buble-loader" spec="^0.2.2" args=["buble-loader","^0.2.2"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '^0.2.2',
+87 verbose parsed url   path: '^0.2.2',
+87 verbose parsed url   href: '^0.2.2' }
+88 verbose addNamed [ 'buble-loader', '^0.2.2' ]
+89 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+90 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+91 verbose lock buble-loader@^0.2.2 /home/da/.npm/aba3153c-buble-loader-0-2-2.lock
+92 silly addNameRange { name: 'buble', range: '>=0.12.3-0 <0.13.0-0', hasData: false }
+93 silly addNameRange { name: 'buble-loader',
+93 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+93 silly addNameRange   hasData: false }
+94 verbose cache add [ 'gulp-filter@^4.0.0', null ]
+95 verbose cache add name=undefined spec="gulp-filter@^4.0.0" args=["gulp-filter@^4.0.0",null]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: 'gulp-filter@^4.0.0',
+96 verbose parsed url   path: 'gulp-filter@^4.0.0',
+96 verbose parsed url   href: 'gulp-filter@^4.0.0' }
+97 verbose cache add name="gulp-filter" spec="^4.0.0" args=["gulp-filter","^4.0.0"]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '^4.0.0',
+98 verbose parsed url   path: '^4.0.0',
+98 verbose parsed url   href: '^4.0.0' }
+99 verbose addNamed [ 'gulp-filter', '^4.0.0' ]
+100 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+101 silly lockFile a9c55e0c-gulp-filter-4-0-0 gulp-filter@^4.0.0
+102 verbose lock gulp-filter@^4.0.0 /home/da/.npm/a9c55e0c-gulp-filter-4-0-0.lock
+103 verbose url raw buble
+104 verbose url resolving [ 'https://registry.npmjs.org/', './buble' ]
+105 verbose url resolved https://registry.npmjs.org/buble
+106 info trying registry request attempt 1 at 11:20:44
+107 verbose etag "58c2298e-2da43"
+108 http GET https://registry.npmjs.org/buble
+109 silly addNameRange { name: 'gulp-filter',
+109 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+109 silly addNameRange   hasData: false }
+110 verbose cache add [ 'webpack-stream@github:jeroennoten/webpack-stream#patch-1',
+110 verbose cache add   null ]
+111 verbose cache add name=undefined spec="webpack-stream@github:jeroennoten/webpack-stream#patch-1" args=["webpack-stream@github:jeroennoten/webpack-stream#patch-1",null]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: '#patch-1',
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'webpack-stream@github:jeroennoten/webpack-stream',
+112 verbose parsed url   path: 'webpack-stream@github:jeroennoten/webpack-stream',
+112 verbose parsed url   href: 'webpack-stream@github:jeroennoten/webpack-stream#patch-1' }
+113 verbose cache add name="webpack-stream" spec="github:jeroennoten/webpack-stream#patch-1" args=["webpack-stream","github:jeroennoten/webpack-stream#patch-1"]
+114 verbose parsed url { protocol: 'github:',
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: 'jeroennoten',
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: 'jeroennoten',
+114 verbose parsed url   hash: '#patch-1',
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: '/webpack-stream',
+114 verbose parsed url   path: '/webpack-stream',
+114 verbose parsed url   href: 'github:jeroennoten/webpack-stream#patch-1' }
+115 verbose addNamed [ 'webpack-stream',
+115 verbose addNamed   'github:jeroennoten/webpack-stream#patch-1' ]
+116 verbose addNamed [ null, null ]
+117 silly lockFile 48f7376d-roennoten-webpack-stream-patch-1 webpack-stream@github:jeroennoten/webpack-stream#patch-1
+118 verbose lock webpack-stream@github:jeroennoten/webpack-stream#patch-1 /home/da/.npm/48f7376d-roennoten-webpack-stream-patch-1.lock
+119 verbose cache add [ 'webpack@2.1.0-beta.15 - 2.1.0-beta.22', null ]
+120 verbose cache add name=undefined spec="webpack@2.1.0-beta.15 - 2.1.0-beta.22" args=["webpack@2.1.0-beta.15 - 2.1.0-beta.22",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22',
+121 verbose parsed url   path: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22',
+121 verbose parsed url   href: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22' }
+122 verbose cache add name="webpack" spec="2.1.0-beta.15 - 2.1.0-beta.22" args=["webpack","2.1.0-beta.15 - 2.1.0-beta.22"]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '2.1.0-beta.15%20-%202.1.0-beta.22',
+123 verbose parsed url   path: '2.1.0-beta.15%20-%202.1.0-beta.22',
+123 verbose parsed url   href: '2.1.0-beta.15%20-%202.1.0-beta.22' }
+124 verbose addNamed [ 'webpack', '2.1.0-beta.15 - 2.1.0-beta.22' ]
+125 verbose addNamed [ null, '>=2.1.0-beta.15 <=2.1.0--beta.22' ]
+126 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+127 verbose lock webpack@2.1.0-beta.15 - 2.1.0-beta.22 /home/da/.npm/ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22.lock
+128 verbose url raw buble-loader
+129 verbose url resolving [ 'https://registry.npmjs.org/', './buble-loader' ]
+130 verbose url resolved https://registry.npmjs.org/buble-loader
+131 info trying registry request attempt 1 at 11:20:44
+132 verbose etag "58b171fe-329c"
+133 http GET https://registry.npmjs.org/buble-loader
+134 info addNameTag [ 'webpack-stream',
+134 info addNameTag   'github:jeroennoten/webpack-stream#patch-1' ]
+135 silly addNameRange { name: 'webpack',
+135 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0--beta.22',
+135 silly addNameRange   hasData: false }
+136 verbose url raw gulp-filter
+137 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-filter' ]
+138 verbose url resolved https://registry.npmjs.org/gulp-filter
+139 info trying registry request attempt 1 at 11:20:44
+140 verbose etag "58cfc34d-76a7"
+141 http GET https://registry.npmjs.org/gulp-filter
+142 verbose url raw webpack-stream
+143 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-stream' ]
+144 verbose url resolved https://registry.npmjs.org/webpack-stream
+145 info trying registry request attempt 1 at 11:20:44
+146 verbose etag "58d39f6b-50e8"
+147 http GET https://registry.npmjs.org/webpack-stream
+148 verbose url raw webpack
+149 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+150 verbose url resolved https://registry.npmjs.org/webpack
+151 info trying registry request attempt 1 at 11:20:44
+152 verbose etag "58d3a717-e6e44"
+153 http GET https://registry.npmjs.org/webpack
+154 http 304 https://registry.npmjs.org/gulp-filter
+155 silly registry.get cb [ 304,
+155 silly registry.get   { date: 'Fri, 24 Mar 2017 04:20:44 GMT',
+155 silly registry.get     via: '1.1 varnish',
+155 silly registry.get     'cache-control': 'max-age=300',
+155 silly registry.get     etag: '"58cfc34d-76a7"',
+155 silly registry.get     age: '146',
+155 silly registry.get     connection: 'keep-alive',
+155 silly registry.get     'x-served-by': 'cache-hkg6821-HKG',
+155 silly registry.get     'x-cache': 'HIT',
+155 silly registry.get     'x-cache-hits': '1',
+155 silly registry.get     'x-timer': 'S1490329244.989276,VS0,VE0',
+155 silly registry.get     vary: 'Accept-Encoding' } ]
+156 verbose etag gulp-filter from cache
+157 silly addNameRange number 2 { name: 'gulp-filter',
+157 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+157 silly addNameRange   hasData: true }
+158 silly addNameRange versions [ 'gulp-filter',
+158 silly addNameRange   [ '0.1.0',
+158 silly addNameRange     '0.1.1',
+158 silly addNameRange     '0.2.0',
+158 silly addNameRange     '0.2.1',
+158 silly addNameRange     '0.3.0',
+158 silly addNameRange     '0.3.1',
+158 silly addNameRange     '0.4.0',
+158 silly addNameRange     '0.4.1',
+158 silly addNameRange     '0.5.0',
+158 silly addNameRange     '0.5.1',
+158 silly addNameRange     '1.0.0',
+158 silly addNameRange     '1.0.1',
+158 silly addNameRange     '1.0.2',
+158 silly addNameRange     '2.0.0',
+158 silly addNameRange     '2.0.1',
+158 silly addNameRange     '2.0.2',
+158 silly addNameRange     '3.0.0',
+158 silly addNameRange     '3.0.1',
+158 silly addNameRange     '4.0.0',
+158 silly addNameRange     '5.0.0' ] ]
+159 verbose addNamed [ 'gulp-filter', '4.0.0' ]
+160 verbose addNamed [ '4.0.0', '4.0.0' ]
+161 silly lockFile 54527cfd-gulp-filter-4-0-0 gulp-filter@4.0.0
+162 verbose lock gulp-filter@4.0.0 /home/da/.npm/54527cfd-gulp-filter-4-0-0.lock
+163 silly lockFile 54527cfd-gulp-filter-4-0-0 gulp-filter@4.0.0
+164 silly lockFile 54527cfd-gulp-filter-4-0-0 gulp-filter@4.0.0
+165 silly lockFile a9c55e0c-gulp-filter-4-0-0 gulp-filter@^4.0.0
+166 silly lockFile a9c55e0c-gulp-filter-4-0-0 gulp-filter@^4.0.0
+167 http 304 https://registry.npmjs.org/webpack
+168 silly registry.get cb [ 304,
+168 silly registry.get   { date: 'Fri, 24 Mar 2017 04:20:45 GMT',
+168 silly registry.get     via: '1.1 varnish',
+168 silly registry.get     'cache-control': 'max-age=300',
+168 silly registry.get     etag: '"58d3a717-e6e44"',
+168 silly registry.get     age: '239',
+168 silly registry.get     connection: 'keep-alive',
+168 silly registry.get     'x-served-by': 'cache-hkg6822-HKG',
+168 silly registry.get     'x-cache': 'HIT',
+168 silly registry.get     'x-cache-hits': '11',
+168 silly registry.get     'x-timer': 'S1490329245.270425,VS0,VE0',
+168 silly registry.get     vary: 'Accept-Encoding' } ]
+169 verbose etag webpack from cache
+170 http 304 https://registry.npmjs.org/webpack-stream
+171 silly registry.get cb [ 304,
+171 silly registry.get   { date: 'Fri, 24 Mar 2017 04:20:45 GMT',
+171 silly registry.get     via: '1.1 varnish',
+171 silly registry.get     'cache-control': 'max-age=300',
+171 silly registry.get     etag: '"58d39f6b-50e8"',
+171 silly registry.get     age: '146',
+171 silly registry.get     connection: 'keep-alive',
+171 silly registry.get     'x-served-by': 'cache-hkg6823-HKG',
+171 silly registry.get     'x-cache': 'HIT',
+171 silly registry.get     'x-cache-hits': '1',
+171 silly registry.get     'x-timer': 'S1490329245.295747,VS0,VE0',
+171 silly registry.get     vary: 'Accept-Encoding' } ]
+172 verbose etag webpack-stream from cache
+173 info maybeGithub Attempting github:jeroennoten/webpack-stream#patch-1 from git://github.com/github:jeroennoten/webpack-stream#patch-1
+174 silly lockFile 0afbe261-roennoten-webpack-stream-patch-1 git://github.com/github:jeroennoten/webpack-stream#patch-1
+175 verbose lock git://github.com/github:jeroennoten/webpack-stream#patch-1 /home/da/.npm/0afbe261-roennoten-webpack-stream-patch-1.lock
+176 silly addNameRange number 2 { name: 'webpack',
+176 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0--beta.22',
+176 silly addNameRange   hasData: true }
+177 silly addNameRange versions [ 'webpack',
+177 silly addNameRange   [ '0.1.0',
+177 silly addNameRange     '0.1.1',
+177 silly addNameRange     '0.1.2',
+177 silly addNameRange     '0.1.3',
+177 silly addNameRange     '0.1.4',
+177 silly addNameRange     '0.1.5',
+177 silly addNameRange     '0.1.6',
+177 silly addNameRange     '0.2.0',
+177 silly addNameRange     '0.2.1',
+177 silly addNameRange     '0.2.2',
+177 silly addNameRange     '0.2.3',
+177 silly addNameRange     '0.2.4',
+177 silly addNameRange     '0.2.6',
+177 silly addNameRange     '0.2.7',
+177 silly addNameRange     '0.2.8',
+177 silly addNameRange     '0.3.0',
+177 silly addNameRange     '0.3.1',
+177 silly addNameRange     '0.3.2',
+177 silly addNameRange     '0.3.3',
+177 silly addNameRange     '0.3.4',
+177 silly addNameRange     '0.3.6',
+177 silly addNameRange     '0.3.7',
+177 silly addNameRange     '0.3.8',
+177 silly addNameRange     '0.3.9',
+177 silly addNameRange     '0.3.10',
+177 silly addNameRange     '0.3.11',
+177 silly addNameRange     '0.3.12',
+177 silly addNameRange     '0.3.13',
+177 silly addNameRange     '0.3.14',
+177 silly addNameRange     '0.3.15',
+177 silly addNameRange     '0.3.16',
+177 silly addNameRange     '0.3.17',
+177 silly addNameRange     '0.3.18',
+177 silly addNameRange     '0.3.19',
+177 silly addNameRange     '0.3.20',
+177 silly addNameRange     '0.4.0',
+177 silly addNameRange     '0.4.1',
+177 silly addNameRange     '0.4.2',
+177 silly addNameRange     '0.4.3',
+177 silly addNameRange     '0.4.4',
+177 silly addNameRange     '0.4.5',
+177 silly addNameRange     '0.4.6',
+177 silly addNameRange     '0.4.7',
+177 silly addNameRange     '0.4.8',
+177 silly addNameRange     '0.4.9',
+177 silly addNameRange     '0.4.10',
+177 silly addNameRange     '0.4.11',
+177 silly addNameRange     '0.4.12',
+177 silly addNameRange     '0.4.13',
+177 silly addNameRange     '0.4.14',
+177 silly addNameRange     '0.4.15',
+177 silly addNameRange     '0.4.16',
+177 silly addNameRange     '0.4.17',
+177 silly addNameRange     '0.4.18',
+177 silly addNameRange     '0.4.19',
+177 silly addNameRange     '0.4.20',
+177 silly addNameRange     '0.4.21',
+177 silly addNameRange     '0.4.23',
+177 silly addNameRange     '0.4.24',
+177 silly addNameRange     '0.4.25',
+177 silly addNameRange     '0.5.0',
+177 silly addNameRange     '0.5.1',
+177 silly addNameRange     '0.5.2',
+177 silly addNameRange     '0.5.3',
+177 silly addNameRange     '0.5.4',
+177 silly addNameRange     '0.5.5',
+177 silly addNameRange     '0.5.6',
+177 silly addNameRange     '0.5.7',
+177 silly addNameRange     '0.5.8',
+177 silly addNameRange     '0.5.10',
+177 silly addNameRange     '0.6.0',
+177 silly addNameRange     '0.6.1',
+177 silly addNameRange     '0.6.2',
+177 silly addNameRange     '0.7.0-beta',
+177 silly addNameRange     '0.7.0-beta2',
+177 silly addNameRange     '0.7.0-beta3',
+177 silly addNameRange     '0.7.0-beta4',
+177 silly addNameRange     '0.7.0-beta5',
+177 silly addNameRange     '0.7.0-beta6',
+177 silly addNameRange     '0.7.0-beta7',
+177 silly addNameRange     '0.7.0-beta8',
+177 silly addNameRange     '0.7.0',
+177 silly addNameRange     '0.7.1',
+177 silly addNameRange     '0.7.2',
+177 silly addNameRange     '0.7.3',
+177 silly addNameRange     '0.7.4',
+177 silly addNameRange     '0.7.5',
+177 silly addNameRange     '0.7.6',
+177 silly addNameRange     '0.7.7',
+177 silly addNameRange     '0.7.8',
+177 silly addNameRange     '0.7.9',
+177 silly addNameRange     '0.7.11',
+177 silly addNameRange     '0.7.12',
+177 silly addNameRange     '0.7.13',
+177 silly addNameRange     '0.7.14',
+177 silly addNameRange     '0.7.15',
+177 silly addNameRange     '0.7.16',
+177 silly addNameRange     '0.7.17',
+177 silly addNameRange     '0.8.0-beta1',
+177 silly addNameRange     '0.8.0-beta2',
+177 silly addNameRange     '0.8.0-beta3',
+177 silly addNameRange     '0.8.0-beta4',
+177 silly addNameRange     '0.8.0',
+177 silly addNameRange     '0.8.2',
+177 silly addNameRange     '0.8.3',
+177 silly addNameRange     '0.9.0-beta1',
+177 silly addNameRange     '0.9.0-beta2',
+177 silly addNameRange     '0.9.0-beta4',
+177 silly addNameRange     '0.9.0-beta5',
+177 silly addNameRange     '0.9.0-beta6',
+177 silly addNameRange     '0.9.0-beta7',
+177 silly addNameRange     '0.9.0-beta8',
+177 silly addNameRange     '0.9.0-beta9',
+177 silly addNameRange     '0.9.0-beta10',
+177 silly addNameRange     '0.9.0-beta11',
+177 silly addNameRange     '0.9.0-beta12',
+177 silly addNameRange     '0.9.0-beta13',
+177 silly addNameRange     '0.9.0-beta14',
+177 silly addNameRange     '0.9.0-beta15',
+177 silly addNameRange     '0.9.0-beta16',
+177 silly addNameRange     '0.9.0-beta17',
+177 silly addNameRange     '0.9.0-beta18',
+177 silly addNameRange     '0.9.0-beta19',
+177 silly addNameRange     '0.9.0-beta20',
+177 silly addNameRange     '0.9.0-beta21',
+177 silly addNameRange     '0.9.0-beta22',
+177 silly addNameRange     '0.9.0-beta23',
+177 silly addNameRange     '0.9.0-beta24',
+177 silly addNameRange     '0.9.0-beta25',
+177 silly addNameRange     '0.9.0-beta26',
+177 silly addNameRange     '0.9.0-beta27',
+177 silly addNameRange     '0.9.0-beta28',
+177 silly addNameRange     '0.9.0-beta29',
+177 silly addNameRange     '0.9.0-beta30',
+177 silly addNameRange     '0.9.0-beta31',
+177 silly addNameRange     '0.9.0-beta32',
+177 silly addNameRange     '0.9.0-beta33',
+177 silly addNameRange     '0.9.0-beta34',
+177 silly addNameRange     '0.9.0-beta35',
+177 silly addNameRange     '0.9.0-beta36',
+177 silly addNameRange     '0.9.0-beta37',
+177 silly addNameRange     '0.9.0-beta38',
+177 silly addNameRange     '0.9.0',
+177 silly addNameRange     '0.9.1',
+177 silly addNameRange     '0.9.2',
+177 silly addNameRange     '0.9.3',
+177 silly addNameRange     '0.10.0-beta2',
+177 silly addNameRange     '0.10.0-beta3',
+177 silly addNameRange     '0.10.0-beta5',
+177 silly addNameRange     '0.10.0-beta6',
+177 silly addNameRange     '0.10.0-beta7',
+177 silly addNameRange     '0.10.0-beta8',
+177 silly addNameRange     '0.10.0-beta9',
+177 silly addNameRange     '0.10.0-beta10',
+177 silly addNameRange     '0.10.0-beta11',
+177 silly addNameRange     '0.10.0-beta12',
+177 silly addNameRange     '0.10.0-beta13',
+177 silly addNameRange     '0.10.0-beta14',
+177 silly addNameRange     '0.10.0-beta15',
+177 silly addNameRange     '0.10.0-beta16',
+177 silly addNameRange     '0.10.0-beta17',
+177 silly addNameRange     '0.10.0-beta18',
+177 silly addNameRange     '0.10.0-beta19',
+177 silly addNameRange     '0.10.0-beta20',
+177 silly addNameRange     '0.10.0-beta21',
+177 silly addNameRange     '0.10.0-beta22',
+177 silly addNameRange     '0.10.0-beta23',
+177 silly addNameRange     '0.10.0-beta24',
+177 silly addNameRange     '0.10.0-beta25',
+177 silly addNameRange     '0.10.0',
+177 silly addNameRange     '0.11.0-beta1',
+177 silly addNameRange     '0.11.0-beta2',
+177 silly addNameRange     '0.11.0-beta3',
+177 silly addNameRange     '0.11.0-beta4',
+177 silly addNameRange     '0.11.0-beta5',
+177 silly addNameRange     '0.11.0-beta6',
+177 silly addNameRange     '0.11.0-beta7',
+177 silly addNameRange     '0.11.0-beta8',
+177 silly addNameRange     '0.11.0-beta9',
+177 silly addNameRange     '0.11.0-beta10',
+177 silly addNameRange     '0.11.0-beta11',
+177 silly addNameRange     '0.11.0-beta12',
+177 silly addNameRange     '0.11.0-beta13',
+177 silly addNameRange     '0.11.0-beta14',
+177 silly addNameRange     '0.11.0-beta15',
+177 silly addNameRange     '0.11.0-beta16',
+177 silly addNameRange     '0.11.0-beta17',
+177 silly addNameRange     '0.11.0-beta18',
+177 silly addNameRange     '0.11.0-beta19',
+177 silly addNameRange     '0.11.0-beta20',
+177 silly addNameRange     '0.11.0-beta21',
+177 silly addNameRange     '0.11.0-beta22',
+177 silly addNameRange     '0.11.0-beta23',
+177 silly addNameRange     '0.11.0-beta24',
+177 silly addNameRange     '0.11.0-beta25',
+177 silly addNameRange     '0.11.0-beta26',
+177 silly addNameRange     '0.11.0-beta27',
+177 silly addNameRange     '0.11.0-beta28',
+177 silly addNameRange     '0.11.0-beta29',
+177 silly addNameRange     '0.11.0',
+177 silly addNameRange     '0.11.1',
+177 silly addNameRange     '0.11.2',
+177 silly addNameRange     '0.11.3',
+177 silly addNameRange     '0.11.4',
+177 silly addNameRange     '0.11.5',
+177 silly addNameRange     '0.11.6',
+177 silly addNameRange     '0.11.7',
+177 silly addNameRange     '0.11.8',
+177 silly addNameRange     '0.11.9',
+177 silly addNameRange     '0.11.10',
+177 silly addNameRange     '0.11.11',
+177 silly addNameRange     '0.11.12',
+177 silly addNameRange     '0.11.13',
+177 silly addNameRange     '0.11.14',
+177 silly addNameRange     '0.11.15',
+177 silly addNameRange     '1.0.0-beta1',
+177 silly addNameRange     '1.0.0-beta2',
+177 silly addNameRange     '1.0.0-beta3',
+177 silly addNameRange     '1.0.0-beta4',
+177 silly addNameRange     '0.11.16',
+177 silly addNameRange     '0.11.17',
+177 silly addNameRange     '0.11.18',
+177 silly addNameRange     '1.0.0-beta5',
+177 silly addNameRange     '1.0.0-beta6',
+177 silly addNameRange     '1.0.0-beta7',
+177 silly addNameRange     '1.0.0-beta8',
+177 silly addNameRange     '1.0.0-beta9',
+177 silly addNameRange     '1.0.0-rc1',
+177 silly addNameRange     '1.0.0-rc2',
+177 silly addNameRange     '1.0.0-rc3',
+177 silly addNameRange     '1.0.0-rc4',
+177 silly addNameRange     '1.0.0-rc5',
+177 silly addNameRange     '1.0.0-rc7',
+177 silly addNameRange     '1.0.0-rc8',
+177 silly addNameRange     '1.0.0-rc9',
+177 silly addNameRange     '1.0.0-rc11',
+177 silly addNameRange     '1.0.0-rc12',
+177 silly addNameRange     '1.0.0',
+177 silly addNameRange     '1.0.1',
+177 silly addNameRange     '1.0.3',
+177 silly addNameRange     '1.0.4',
+177 silly addNameRange     '1.0.5',
+177 silly addNameRange     '1.1.0-beta1',
+177 silly addNameRange     '1.1.0-beta2',
+177 silly addNameRange     '1.1.0-beta3',
+177 silly addNameRange     '1.1.0-beta4',
+177 silly addNameRange     '1.1.0-beta5',
+177 silly addNameRange     '1.1.0-beta6',
+177 silly addNameRange     '1.1.0-beta7',
+177 silly addNameRange     '1.1.0-beta8',
+177 silly addNameRange     '1.1.0-beta9',
+177 silly addNameRange     '1.1.0-beta10',
+177 silly addNameRange     '1.1.0-beta12',
+177 silly addNameRange     '1.1.0',
+177 silly addNameRange     '1.1.1',
+177 silly addNameRange     '1.1.2',
+177 silly addNameRange     '1.1.3',
+177 silly addNameRange     '1.1.4',
+177 silly addNameRange     '1.1.5',
+177 silly addNameRange     '1.1.6',
+177 silly addNameRange     '1.1.7',
+177 silly addNameRange     '1.1.8',
+177 silly addNameRange     '1.1.9',
+177 silly addNameRange     '1.1.10',
+177 silly addNameRange     '1.1.11',
+177 silly addNameRange     '1.2.0-beta1',
+177 silly addNameRange     '1.2.0-beta2',
+177 silly addNameRange     '1.2.0-beta4',
+177 silly addNameRange     '1.2.0-beta5',
+177 silly addNameRange     '1.2.0-beta6',
+177 silly addNameRange     '1.3.0-beta1',
+177 silly addNameRange     '1.3.0-beta2',
+177 silly addNameRange     '1.3.0-beta3',
+177 silly addNameRange     '1.3.0-beta4',
+177 silly addNameRange     '1.3.0-beta5',
+177 silly addNameRange     '1.3.0-beta6',
+177 silly addNameRange     '1.3.0-beta7',
+177 silly addNameRange     '1.3.0-beta8',
+177 silly addNameRange     '1.3.0-beta9',
+177 silly addNameRange     '1.3.1-beta1',
+177 silly addNameRange     '1.3.1-beta2',
+177 silly addNameRange     '1.3.1-beta3',
+177 silly addNameRange     '1.3.1-beta4',
+177 silly addNameRange     '1.3.1-beta5',
+177 silly addNameRange     '1.3.1-beta6',
+177 silly addNameRange     '1.3.1-beta7',
+177 silly addNameRange     '1.3.1-beta8',
+177 silly addNameRange     '1.3.1-beta9',
+177 silly addNameRange     '1.3.2-beta1',
+177 silly addNameRange     '1.3.2-beta2',
+177 silly addNameRange     '1.3.2-beta3',
+177 silly addNameRange     '1.3.2-beta4',
+177 silly addNameRange     '1.3.2-beta5',
+177 silly addNameRange     '1.3.2-beta6',
+177 silly addNameRange     '1.3.2-beta7',
+177 silly addNameRange     '1.3.2-beta8',
+177 silly addNameRange     '1.3.2-beta9',
+177 silly addNameRange     '1.3.3-beta1',
+177 silly addNameRange     '1.3.3-beta2',
+177 silly addNameRange     '1.3.4',
+177 silly addNameRange     '1.3.5',
+177 silly addNameRange     '1.3.6',
+177 silly addNameRange     '1.3.7',
+177 silly addNameRange     '1.4.0-beta1',
+177 silly addNameRange     '1.4.0-beta2',
+177 silly addNameRange     '1.4.0-beta3',
+177 silly addNameRange     '1.4.0-beta4',
+177 silly addNameRange     '1.4.0-beta5',
+177 silly addNameRange     '1.4.0-beta6',
+177 silly addNameRange     '1.4.0-beta7',
+177 silly addNameRange     '1.4.0-beta8',
+177 silly addNameRange     '1.4.0-beta9',
+177 silly addNameRange     '1.4.0-beta10',
+177 silly addNameRange     '1.4.1-beta1',
+177 silly addNameRange     '1.4.2',
+177 silly addNameRange     '1.4.3',
+177 silly addNameRange     '1.4.4',
+177 silly addNameRange     '1.4.5',
+177 silly addNameRange     '1.4.6',
+177 silly addNameRange     '1.4.7',
+177 silly addNameRange     '1.4.8',
+177 silly addNameRange     '1.4.9',
+177 silly addNameRange     '1.4.10',
+177 silly addNameRange     '1.4.11',
+177 silly addNameRange     '1.4.12',
+177 silly addNameRange     '1.4.13',
+177 silly addNameRange     '1.4.14',
+177 silly addNameRange     '1.4.15',
+177 silly addNameRange     '1.5.0',
+177 silly addNameRange     '1.5.1',
+177 silly addNameRange     '1.5.2',
+177 silly addNameRange     '1.5.3',
+177 silly addNameRange     '1.6.0',
+177 silly addNameRange     '1.7.0',
+177 silly addNameRange     '1.7.1',
+177 silly addNameRange     '1.7.2',
+177 silly addNameRange     '1.7.3',
+177 silly addNameRange     '1.8.0',
+177 silly addNameRange     '1.8.1',
+177 silly addNameRange     '1.8.2',
+177 silly addNameRange     '1.8.3',
+177 silly addNameRange     '1.8.4',
+177 silly addNameRange     '1.8.5',
+177 silly addNameRange     '1.8.6',
+177 silly addNameRange     '1.8.7',
+177 silly addNameRange     '1.8.8',
+177 silly addNameRange     '1.8.9',
+177 silly addNameRange     '1.8.10',
+177 silly addNameRange     '1.8.11',
+177 silly addNameRange     '1.9.0',
+177 silly addNameRange     '1.9.1',
+177 silly addNameRange     '1.9.2',
+177 silly addNameRange     '1.9.3',
+177 silly addNameRange     '1.9.4',
+177 silly addNameRange     '1.9.5',
+177 silly addNameRange     '1.9.6',
+177 silly addNameRange     '1.9.7',
+177 silly addNameRange     '1.9.8',
+177 silly addNameRange     '1.9.9',
+177 silly addNameRange     '1.9.10',
+177 silly addNameRange     '1.9.11',
+177 silly addNameRange     '1.9.12',
+177 silly addNameRange     '1.9.13',
+177 silly addNameRange     '1.10.0',
+177 silly addNameRange     '1.10.1',
+177 silly addNameRange     '1.10.2',
+177 silly addNameRange     '1.10.3',
+177 silly addNameRange     '1.10.4',
+177 silly addNameRange     '1.10.5',
+177 silly addNameRange     '1.11.0',
+177 silly addNameRange     '1.12.0',
+177 silly addNameRange     '1.12.1',
+177 silly addNameRange     '1.12.2',
+177 silly addNameRange     '2.0.0-beta',
+177 silly addNameRange     '1.12.3',
+177 silly addNameRange     '1.12.4',
+177 silly addNameRange     '1.12.5',
+177 silly addNameRange     '1.12.6',
+177 silly addNameRange     '1.12.7',
+177 silly addNameRange     '1.12.8',
+177 silly addNameRange     '1.12.9',
+177 silly addNameRange     '2.0.1-beta',
+177 silly addNameRange     '2.0.2-beta',
+177 silly addNameRange     '1.12.10',
+177 silly addNameRange     '1.12.11',
+177 silly addNameRange     '2.0.4-beta',
+177 silly addNameRange     '1.12.12',
+177 silly addNameRange     '2.0.5-beta',
+177 silly addNameRange     '2.0.6-beta',
+177 silly addNameRange     '2.0.7-beta',
+177 silly addNameRange     '1.12.13',
+177 silly addNameRange     '2.1.0-beta.0',
+177 silly addNameRange     '2.1.0-beta.1',
+177 silly addNameRange     '2.1.0-beta.2',
+177 silly addNameRange     '1.12.14',
+177 silly addNameRange     '2.1.0-beta.3',
+177 silly addNameRange     '2.1.0-beta.4',
+177 silly addNameRange     '2.1.0-beta.5',
+177 silly addNameRange     '1.12.15',
+177 silly addNameRange     '1.13.0',
+177 silly addNameRange     '2.1.0-beta.6',
+177 silly addNameRange     '2.1.0-beta.7',
+177 silly addNameRange     '1.13.1',
+177 silly addNameRange     '2.1.0-beta.8',
+177 silly addNameRange     '2.1.0-beta.9',
+177 silly addNameRange     '2.1.0-beta.10',
+177 silly addNameRange     '2.1.0-beta.11',
+177 silly addNameRange     '2.1.0-beta.12',
+177 silly addNameRange     '2.1.0-beta.13',
+177 silly addNameRange     '2.1.0-beta.14',
+177 silly addNameRange     '2.1.0-beta.15',
+177 silly addNameRange     '2.1.0-beta.16',
+177 silly addNameRange     '2.1.0-beta.17',
+177 silly addNameRange     '2.1.0-beta.18',
+177 silly addNameRange     '2.1.0-beta.19',
+177 silly addNameRange     '2.1.0-beta.20',
+177 silly addNameRange     '2.1.0-beta.21',
+177 silly addNameRange     '1.13.2',
+177 silly addNameRange     '2.1.0-beta.22',
+177 silly addNameRange     '2.1.0-beta.23',
+177 silly addNameRange     '2.1.0-beta.24',
+177 silly addNameRange     '2.1.0-beta.25',
+177 silly addNameRange     '1.13.3',
+177 silly addNameRange     '2.1.0-beta.26',
+177 silly addNameRange     '2.1.0-beta.27',
+177 silly addNameRange     '1.14.0',
+177 silly addNameRange     '2.1.0-beta.28',
+177 silly addNameRange     '2.2.0-rc.0',
+177 silly addNameRange     '2.2.0-rc.1',
+177 silly addNameRange     '2.2.0-rc.2',
+177 silly addNameRange     '2.2.0-rc.3',
+177 silly addNameRange     '2.2.0-rc.4',
+177 silly addNameRange     '2.2.0-rc.5',
+177 silly addNameRange     '2.2.0-rc.6',
+177 silly addNameRange     '2.2.0-rc.7',
+177 silly addNameRange     '2.2.0-rc.8',
+177 silly addNameRange     '2.2.0',
+177 silly addNameRange     '2.2.1',
+177 silly addNameRange     '2.3.0',
+177 silly addNameRange     '2.3.1' ] ]
+178 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+179 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+180 verbose about to build /home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official
+181 info /home/da/Documents/Project/fbs/node_modules/laravel-elixir-webpack-official unbuild
+182 info preuninstall laravel-elixir-webpack-official@1.0.10
+183 info uninstall laravel-elixir-webpack-official@1.0.10
+184 verbose true,/home/da/Documents/Project/fbs/node_modules,/home/da/Documents/Project/fbs/node_modules unbuild laravel-elixir-webpack-official@1.0.10
+185 info postuninstall laravel-elixir-webpack-official@1.0.10
+186 error Error: No compatible version found: webpack@'>=2.1.0-beta.15 <=2.1.0--beta.22'
+186 error Valid install targets:
+186 error ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.6","0.2.7","0.2.8","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.6","0.3.7","0.3.8","0.3.9","0.3.10","0.3.11","0.3.12","0.3.13","0.3.14","0.3.15","0.3.16","0.3.17","0.3.18","0.3.19","0.3.20","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.4.5","0.4.6","0.4.7","0.4.8","0.4.9","0.4.10","0.4.11","0.4.12","0.4.13","0.4.14","0.4.15","0.4.16","0.4.17","0.4.18","0.4.19","0.4.20","0.4.21","0.4.23","0.4.24","0.4.25","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.5.10","0.6.0","0.6.1","0.6.2","0.7.0-beta","0.7.0-beta2","0.7.0-beta3","0.7.0-beta4","0.7.0-beta5","0.7.0-beta6","0.7.0-beta7","0.7.0-beta8","0.7.0","0.7.1","0.7.2","0.7.3","0.7.4","0.7.5","0.7.6","0.7.7","0.7.8","0.7.9","0.7.11","0.7.12","0.7.13","0.7.14","0.7.15","0.7.16","0.7.17","0.8.0-beta1","0.8.0-beta2","0.8.0-beta3","0.8.0-beta4","0.8.0","0.8.2","0.8.3","0.9.0-beta1","0.9.0-beta2","0.9.0-beta4","0.9.0-beta5","0.9.0-beta6","0.9.0-beta7","0.9.0-beta8","0.9.0-beta9","0.9.0-beta10","0.9.0-beta11","0.9.0-beta12","0.9.0-beta13","0.9.0-beta14","0.9.0-beta15","0.9.0-beta16","0.9.0-beta17","0.9.0-beta18","0.9.0-beta19","0.9.0-beta20","0.9.0-beta21","0.9.0-beta22","0.9.0-beta23","0.9.0-beta24","0.9.0-beta25","0.9.0-beta26","0.9.0-beta27","0.9.0-beta28","0.9.0-beta29","0.9.0-beta30","0.9.0-beta31","0.9.0-beta32","0.9.0-beta33","0.9.0-beta34","0.9.0-beta35","0.9.0-beta36","0.9.0-beta37","0.9.0-beta38","0.9.0","0.9.1","0.9.2","0.9.3","0.10.0-beta2","0.10.0-beta3","0.10.0-beta5","0.10.0-beta6","0.10.0-beta7","0.10.0-beta8","0.10.0-beta9","0.10.0-beta10","0.10.0-beta11","0.10.0-beta12","0.10.0-beta13","0.10.0-beta14","0.10.0-beta15","0.10.0-beta16","0.10.0-beta17","0.10.0-beta18","0.10.0-beta19","0.10.0-beta20","0.10.0-beta21","0.10.0-beta22","0.10.0-beta23","0.10.0-beta24","0.10.0-beta25","0.10.0","0.11.0-beta1","0.11.0-beta2","0.11.0-beta3","0.11.0-beta4","0.11.0-beta5","0.11.0-beta6","0.11.0-beta7","0.11.0-beta8","0.11.0-beta9","0.11.0-beta10","0.11.0-beta11","0.11.0-beta12","0.11.0-beta13","0.11.0-beta14","0.11.0-beta15","0.11.0-beta16","0.11.0-beta17","0.11.0-beta18","0.11.0-beta19","0.11.0-beta20","0.11.0-beta21","0.11.0-beta22","0.11.0-beta23","0.11.0-beta24","0.11.0-beta25","0.11.0-beta26","0.11.0-beta27","0.11.0-beta28","0.11.0-beta29","0.11.0","0.11.1","0.11.2","0.11.3","0.11.4","0.11.5","0.11.6","0.11.7","0.11.8","0.11.9","0.11.10","0.11.11","0.11.12","0.11.13","0.11.14","0.11.15","1.0.0-beta1","1.0.0-beta2","1.0.0-beta3","1.0.0-beta4","0.11.16","0.11.17","0.11.18","1.0.0-beta5","1.0.0-beta6","1.0.0-beta7","1.0.0-beta8","1.0.0-beta9","1.0.0-rc1","1.0.0-rc2","1.0.0-rc3","1.0.0-rc4","1.0.0-rc5","1.0.0-rc7","1.0.0-rc8","1.0.0-rc9","1.0.0-rc11","1.0.0-rc12","1.0.0","1.0.1","1.0.3","1.0.4","1.0.5","1.1.0-beta1","1.1.0-beta2","1.1.0-beta3","1.1.0-beta4","1.1.0-beta5","1.1.0-beta6","1.1.0-beta7","1.1.0-beta8","1.1.0-beta9","1.1.0-beta10","1.1.0-beta12","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","1.1.5","1.1.6","1.1.7","1.1.8","1.1.9","1.1.10","1.1.11","1.2.0-beta1","1.2.0-beta2","1.2.0-beta4","1.2.0-beta5","1.2.0-beta6","1.3.0-beta1","1.3.0-beta2","1.3.0-beta3","1.3.0-beta4","1.3.0-beta5","1.3.0-beta6","1.3.0-beta7","1.3.0-beta8","1.3.0-beta9","1.3.1-beta1","1.3.1-beta2","1.3.1-beta3","1.3.1-beta4","1.3.1-beta5","1.3.1-beta6","1.3.1-beta7","1.3.1-beta8","1.3.1-beta9","1.3.2-beta1","1.3.2-beta2","1.3.2-beta3","1.3.2-beta4","1.3.2-beta5","1.3.2-beta6","1.3.2-beta7","1.3.2-beta8","1.3.2-beta9","1.3.3-beta1","1.3.3-beta2","1.3.4","1.3.5","1.3.6","1.3.7","1.4.0-beta1","1.4.0-beta2","1.4.0-beta3","1.4.0-beta4","1.4.0-beta5","1.4.0-beta6","1.4.0-beta7","1.4.0-beta8","1.4.0-beta9","1.4.0-beta10","1.4.1-beta1","1.4.2","1.4.3","1.4.4","1.4.5","1.4.6","1.4.7","1.4.8","1.4.9","1.4.10","1.4.11","1.4.12","1.4.13","1.4.14","1.4.15","1.5.0","1.5.1","1.5.2","1.5.3","1.6.0","1.7.0","1.7.1","1.7.2","1.7.3","1.8.0","1.8.1","1.8.2","1.8.3","1.8.4","1.8.5","1.8.6","1.8.7","1.8.8","1.8.9","1.8.10","1.8.11","1.9.0","1.9.1","1.9.2","1.9.3","1.9.4","1.9.5","1.9.6","1.9.7","1.9.8","1.9.9","1.9.10","1.9.11","1.9.12","1.9.13","1.10.0","1.10.1","1.10.2","1.10.3","1.10.4","1.10.5","1.11.0","1.12.0","1.12.1","1.12.2","2.0.0-beta","1.12.3","1.12.4","1.12.5","1.12.6","1.12.7","1.12.8","1.12.9","2.0.1-beta","2.0.2-beta","1.12.10","1.12.11","2.0.4-beta","1.12.12","2.0.5-beta","2.0.6-beta","2.0.7-beta","1.12.13","2.1.0-beta.0","2.1.0-beta.1","2.1.0-beta.2","1.12.14","2.1.0-beta.3","2.1.0-beta.4","2.1.0-beta.5","1.12.15","1.13.0","2.1.0-beta.6","2.1.0-beta.7","1.13.1","2.1.0-beta.8","2.1.0-beta.9","2.1.0-beta.10","2.1.0-beta.11","2.1.0-beta.12","2.1.0-beta.13","2.1.0-beta.14","2.1.0-beta.15","2.1.0-beta.16","2.1.0-beta.17","2.1.0-beta.18","2.1.0-beta.19","2.1.0-beta.20","2.1.0-beta.21","1.13.2","2.1.0-beta.22","2.1.0-beta.23","2.1.0-beta.24","2.1.0-beta.25","1.13.3","2.1.0-beta.26","2.1.0-beta.27","1.14.0","2.1.0-beta.28","2.2.0-rc.0","2.2.0-rc.1","2.2.0-rc.2","2.2.0-rc.3","2.2.0-rc.4","2.2.0-rc.5","2.2.0-rc.6","2.2.0-rc.7","2.2.0-rc.8","2.2.0","2.2.1","2.3.0","2.3.1"]
+186 error     at installTargetsError (/usr/share/npm/lib/cache.js:719:10)
+186 error     at next (/usr/share/npm/lib/cache.js:698:17)
+186 error     at /usr/share/npm/lib/cache.js:675:5
+186 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+186 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+186 error     at Object.oncomplete (fs.js:107:15)
+187 error If you need help, you may report this log at:
+187 error     <http://github.com/isaacs/npm/issues>
+187 error or email it to:
+187 error     <npm-@googlegroups.com>
+188 error System Linux 4.4.0-64-generic
+189 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+190 error cwd /home/da/Documents/Project/fbs
+191 error node -v v0.10.25
+192 error npm -v 1.3.10
+193 verbose exit [ 1, true ]

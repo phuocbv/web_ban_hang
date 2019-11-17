@@ -13,6 +13,11 @@
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
+Route::get('/getProductTitle/{id}', [
+    'as' => 'home.getProductTitle',
+    'uses' => 'HomeController@getProductTitle'
+]);
+
 Route::get('/categories/{id}/products', ['as' => 'category.show',
     'uses' => 'CategoriesControllers@showProductInCategory']);
 

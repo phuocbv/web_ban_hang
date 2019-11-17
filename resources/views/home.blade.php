@@ -73,6 +73,7 @@
         </div>
     </div>
     <script type="text/javascript" src="{{ asset('user/js/home.js') }}"></script>
+    <script type="text/babel" src="{{ asset('user/reactjs/home.js') }}"></script>
 @endsection
 
 @section('script')

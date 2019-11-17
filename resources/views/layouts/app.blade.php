@@ -12,6 +12,13 @@
         <script type="text/javascript" src="{{ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('bower_components/metisMenu/dist/metisMenu.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('bower_components/bootstrap-star-rating/js/star-rating.js') }}"></script>
+        <script src="{{ asset('user/reactjs/react.js') }}"></script>
+        <script src="{{ asset('user/reactjs/react-dom.js') }}"></script>
+        <script src="{{ asset('user/reactjs/browser.min.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="{{ asset('bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('bower_components/font-awesome/css/font-awesome.css') }}">
         <link rel="stylesheet" href="{{ asset('bower_components/font-awesome/css/font-awesome.min.css') }}">
@@ -26,6 +33,7 @@
     <body>
         @include('layouts.header')
         @include('layouts.search')
+        <div id="aa"></div>
         @yield('content')
         @include('layouts.footer')
     </body>
